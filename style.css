@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card{
@@ -39,7 +39,7 @@ body{
     text-align: center;
     border-radius: 5px;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 800;
     margin: 20px 0 15px;
     color: hsl(0, 0%, 7%);
     background-color: hsl(47, 88%, 63%);
@@ -67,6 +67,7 @@ h2 a:hover{
 p{
     color: hsl(0, 0%, 42%);
     margin-bottom: 25px;
+
 }
 .author{
     display: flex;
@@ -78,7 +79,7 @@ p{
 }
 .author .bold{
     margin: 0;
-    font-weight: 900;
+    font-weight: 800;
     color: hsl(0, 0%, 7%);
 }
 
